@@ -43,7 +43,7 @@ public class Game extends Canvas implements Runnable {
 	public static void main(String[] args) {
 		Game game = new Game();
 		game.frame.setResizable(true);
-		game.frame.setTitle("Game Engime");
+		game.frame.setTitle("GAME Engime");
 		game.frame.add(game);
 		game.frame.pack();
 		game.frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
