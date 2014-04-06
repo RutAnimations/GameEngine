@@ -36,8 +36,17 @@ public class Game extends Canvas implements Runnable {
 
 	public void run() {
 		while (running) {
-			System.out.println("Working");
+			update();
+			render();
 		}
+	}
+	
+	public void update() {
+		
+	}
+	
+	public void render() {
+		
 	}
 	
 	public static void main(String[] args) {
